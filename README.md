@@ -115,3 +115,9 @@ Issues actually hit while building this, in case they save you time:
   language.
 - Nothing here is tied to a specific Databricks tier — Free Edition, trial,
   and paid workspaces all work unchanged.
+
+
+## Databricks Output
+
+<img src="ucatalog.jpg" alt="Unity Catalog Tables" width="800">
+<img src="queryhistory.jpg" alt="Query History" width="800">
