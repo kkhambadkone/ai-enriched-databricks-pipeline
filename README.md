@@ -46,6 +46,7 @@ ai-enriched-databricks-pipeline/
 ## One-time setup — Databricks CLI (shared by both languages)
 
 ```bash
+
 brew tap databricks/tap && brew install databricks
 databricks configure --host https://<your-workspace-url>
 # paste your personal access token when prompted
@@ -80,39 +81,9 @@ rebuilds the same tables without touching your local machine at all.
 
 ---
 
-## Running the Scala version
-
-> **Note:** Databricks Connect for Scala on serverless compute is currently
-> **Beta** per Databricks' own documentation.
-
-### Prerequisites
-
-- JDK 17 (`brew install openjdk@17`)
-- sbt (`brew install sbt`)
-
-### Run
-
-```bash
-cd scala
-sbt run
-```
-
-If your shell's default JDK isn't 17 (check with `java -version`), pin the
-project to the right JDK directly in `build.sbt` rather than changing your
-shell-wide default:
-
-```scala
-javaHome := Some(file("/opt/homebrew/Cellar/openjdk@17/17.0.19/libexec/openjdk.jdk/Contents/Home"))
-```
-
-Find your own JDK 17 path with `/usr/libexec/java_home -v 17` (macOS) and
-substitute it in.
-
----
-
 ## Configuration
 
-Both `run_pipeline_local.py` and `AiEnrichedPipeline.scala` define these at
+`run_pipeline_local.py` define these at
 the top:
 
 ```
