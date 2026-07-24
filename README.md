@@ -120,4 +120,4 @@ Issues actually hit while building this, in case they save you time:
 ## Databricks Output
 
 <img src="ucatalog.jpg" alt="Unity Catalog Tables" width="400" height="400">
-<img src="queryhistory.jpg" alt="Query History" width="400" height="400">
+<img src="queryhistory.jpg" alt="Query History" width="800" height="800">
