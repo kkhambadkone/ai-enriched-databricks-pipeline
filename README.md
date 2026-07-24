@@ -31,17 +31,9 @@ Everything runs on **serverless compute** — no cluster to provision or tune.
 ```
 ai-enriched-databricks-pipeline/
 ├── README.md
-├── docs/
-│   └── architecture_diagram.jpg
-├── python/
-│   ├── ai_enriched_pipeline.py     # notebook version - import directly into Databricks
-│   ├── run_pipeline_local.py       # local driver via Databricks Connect
-│   └── requirements.txt
-└── scala/
-    ├── build.sbt
-    ├── project/build.properties
-    └── src/main/scala/com/example/pipeline/AiEnrichedPipeline.scala
-```
+│   architecture_diagram.jpg
+│   run_pipeline_local.py       # local driver via Databricks Connect
+│   requirements.txt
 
 ## Prerequisites
 
